@@ -1,0 +1,56 @@
+/* Import Fonts */
+
+@font-face {
+  font-family: "Montessarat";
+  src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Montessarat";
+  box-sizing: border-box;
+}
+
+#main__heading {
+  width: 100%;
+  background-color: #d0ccd0;
+  margin-bottom: 30px;
+  color: #605856;
+}
+
+.new__game {
+  background-color: #605856;
+  color: #fbfcff;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-weight: 500;
+  box-shadow: 4px 4px 6px rgb(96 88 86 / 50%);
+  margin-bottom: 30px;
+}
+.current__player {
+  text-align: center;
+}
+.cell-div {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  justify-items: center;
+  margin: 20px;
+}
+
+.cell {
+  height: 150px;
+  width: 150px;
+  align-self: center;
+  cursor: pointer;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  line-height: 150px;
+  text-align: center;
+  border: 1px solid black;
+}
